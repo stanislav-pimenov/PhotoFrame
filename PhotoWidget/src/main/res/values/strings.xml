@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">PhotoFrame</string>
+    <string name="widget_name">PhotoWidget</string>
+    <string name="before">Люблю мою Юляшу!!! До свадьбы осталось %1$s дней</string>
+    <string name="after">Люблю мою Юляшу!!! Мы женаты уже %1$s дней</string>
+    <string name="before234">Люблю мою Юляшу!!! До свадьбы осталось %1$s дня</string>
+    <string name="after234">Люблю мою Юляшу!!! Мы женаты уже %1$s дня</string>
+    <string name="before1">Люблю мою Юляшу!!! До свадьбы осталось %1$s день</string>
+    <string name="after1">Люблю мою Юляшу!!! Мы женаты уже %1$s день</string>>
+</resources>

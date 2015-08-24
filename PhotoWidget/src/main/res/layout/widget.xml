@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent">
+
+    <ImageView
+            android:id="@+id/backgroundImage"
+            android:layout_width="@dimen/widget_min_width"
+            android:layout_height="@dimen/widget_min_height"
+            android:src="@drawable/wedding"
+            android:scaleType="fitXY"
+            android:cropToPadding="false"
+            android:background="@drawable/rounded_corner_rect"/>
+
+    <LinearLayout
+            android:layout_width="@dimen/widget_min_width"
+            android:layout_height="@dimen/widget_min_height"
+            android:orientation="vertical"
+            android:gravity="bottom"
+            android:padding="10dp">
+
+
+        <TextView android:id="@+id/tv"
+                  android:text=""
+                  android:layout_height="wrap_content"
+                  android:layout_width="match_parent"
+                  android:textColor="#ff3c4c6d"
+                  android:textSize="14sp"
+                  android:background="@drawable/rounded_corner_rect"
+                  android:singleLine="true"
+                  android:ellipsize="marquee"
+                  android:marqueeRepeatLimit="marquee_forever"
+                  android:scrollHorizontally="true"
+                  android:focusable="true"
+                  android:focusableInTouchMode="true"
+                  android:duplicateParentState="true">
+
+            <requestFocus android:focusable="true" android:focusableInTouchMode="true"
+                          android:duplicateParentState="true"/>
+
+        </TextView>
+        <!-- all your views -->
+
+    </LinearLayout>
+
+</FrameLayout>
