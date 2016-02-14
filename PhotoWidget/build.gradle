@@ -17,7 +17,7 @@ android {
     buildToolsVersion "22.0.1"
 
     defaultConfig {
-        applicationId "com.esprit.photoframe.photowidget"
+        applicationId "com.esprit.photoframe.photowidget2"
         minSdkVersion 19
         targetSdkVersion 21
         versionCode 1

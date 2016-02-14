@@ -7,7 +7,7 @@
             android:id="@+id/backgroundImage"
             android:layout_width="@dimen/widget_min_width"
             android:layout_height="@dimen/widget_min_height"
-            android:src="@drawable/wedding"
+            android:src="@drawable/baby480"
             android:scaleType="fitXY"
             android:cropToPadding="false"
             android:background="@drawable/rounded_corner_rect"/>

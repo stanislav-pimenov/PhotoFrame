@@ -6,5 +6,8 @@
     <string name="before234">Люблю мою Юляшу!!! До свадьбы осталось %1$s дня</string>
     <string name="after234">Люблю мою Юляшу!!! Мы женаты уже %1$s дня</string>
     <string name="before1">Люблю мою Юляшу!!! До свадьбы осталось %1$s день</string>
-    <string name="after1">Люблю мою Юляшу!!! Мы женаты уже %1$s день</string>>
+    <string name="after1">Люблю мою Юляшу!!! Мы женаты уже %1$s день</string>
+    <string name="age234">Малышу уже %1$s недель и %2$s дня</string>
+    <string name="age1">Малышу уже %1$s недель и %2$s день</string>
+    <string name="age">Малышу уже %1$s недель и %2$s дней</string>
 </resources>
