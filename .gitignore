@@ -1,6 +1,20 @@
+# ignoring IntelliJ Idea IDE files
+.idea
+*.iml
+*.ipr
+*.iws
+
+
+# ignoring Maven build tool files
+target
+# ignore build folder
+build
+
+# ignoring Gradle tmp folder
 .gradle
+
+# ignoring git properties file
+git.properties
+
+# ignore local.properties with android sdk path
 /local.properties
-/.idea/workspace.xml
-/.idea/libraries
-.DS_Store
-/build

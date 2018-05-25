@@ -1,4 +1,4 @@
-package com.esprit.photoframe.photowidget;
+package com.epam.photoframe.photowidget;
 
 import android.appwidget.AppWidgetManager;
 import android.appwidget.AppWidgetProvider;
@@ -15,7 +15,7 @@ import java.util.Arrays;
 
 public class PhotoWidget extends AppWidgetProvider {
 
-    final String LOG_TAG = "photoWidgetLog";
+    private final static String LOG_TAG = "photoWidgetLog";
 
 
     @Override
@@ -68,7 +68,7 @@ public class PhotoWidget extends AppWidgetProvider {
             return res.getString(R.string.after);
         }
 
-        return null;
+        return "";
     }
 
     @Override
@@ -87,6 +87,5 @@ public class PhotoWidget extends AppWidgetProvider {
     public void onEnabled(Context context) {
         super.onEnabled(context);
         Log.d(LOG_TAG, "onEnabled");
-
     }
 }
